@@ -6,7 +6,7 @@ classdef testCalc < matlab.unittest.TestCase
         function testSquare(testCase)
             %TESTCALC Construct an instance of this class
             %   Detailed explanation goes here
-            testCase.verifyEqual(sqNum(2), 5);
+            testCase.verifyEqual(sqNum(2), 4);
         end
     end
 end
